@@ -1,3 +1,55 @@
-body {
+html {
+  height: 100%;
+  width: 100%;
+}
 
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.body-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: rgb(236, 190, 185);
+  height: 100%;
+}
+
+.overflow-nav {
+
+}
+
+.overflow-nav ul {
+
+}
+
+.overflow-nav li {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 20px;
+  background-color: rgb(222, 220, 232);
+}
+
+.test-div-top {
+  height: 100px;
+  background-color: grey;
+}
+
+.test-div-left {
+  width: 200px;
+  background-color: grey;
+  height: 50px;
+  display: inline-block;
+}
+
+.test-div-right {
+  width: 200px;
+  background-color: grey;
+  height: 50px;
+  display: inline-block;
+}
+
+.test-div-bottom {
+  height: 100px;
+  background-color: grey;
 }
